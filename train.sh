@@ -1,0 +1,1 @@
+python train.py --dataset='face_landmark_98' --workers=0 --epochs=130 --start-epoch=0 --train-batch=32 --test-batch=16 --lr=0.0001 --dropout=0 --gamma=0.1 --momentum=0.9 --weight-decay=5e-4 --checkpoint='./checkout/SqueezeNet' --resume="" --manualSeed=1 --gpu_id='0'
